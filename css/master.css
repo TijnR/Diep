@@ -314,6 +314,10 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   margin-top: 6000px;
 }
 
+.last{
+  margin-top: 43800px;
+}
+
 .hadal{
   margin-top: 44000px;
 }
@@ -322,11 +326,9 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   margin-top: 22000px;
 }
 
-.hadal{
-  margin-top: 40000px;
-}
+
 .everest{
-  margin-top: 26300px;
+  margin-top: 18400px;
 }
 
 .monster{
@@ -334,7 +336,8 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
 }
 
 .sub{
-  margin-top: -500px;
+  margin-top: 0px;
+  margin-bottom: 0;
 }
 
 
@@ -634,7 +637,7 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   margin-top: 0.4em;
   margin-right: 0.3em;
   font-size: 28px;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   color: red;
 }
 
@@ -686,7 +689,7 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   height: 60vh;
   overflow: hidden;
   background-position: bottom;
-  margin-top: -80%;
+  margin-top: -30vh;
 
 
 }
@@ -843,51 +846,11 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
     }
 
 
-@media only screen and (min-width: 1550px){
-  header{
-    height: 50vh;
-  }
-  h1{
-    font-size: 2.5rem;
-  }
-  h5{
-    font-size: 0.8rem;
-  }
-  .titles{
-    margin-top: 10vh;
-  }
-  .waves{
-    margin-top: 15vh;
-  }
-}
 
-/* medium screen */
-@media only screen and (min-width: 1024px){
-  header{
-    height: 50vh;
-  }
-  h1{
-    font-size: 3rem;
-  }
-  h5{
-    font-size: 1rem;
-  }
-  .titles{
-    margin-top: 12vh;
-  }
-  .waves{
-    margin-top: 13vh;
-  }
-  .midnight{
-    margin-top: 3000px;
-  }
-}
-}
 
-/* ipad pro */
-@media only screen and (min-width: 1023) and (min-height: 1000px) {
 
-}
+
+
 /* small screen */
 @media only screen and (min-width: 767px){
   header{
@@ -935,8 +898,17 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   }
 
   .everest{
-    margin-top: 26000px;
+    margin-top: 20000px;
   }
+  .hadal{
+    margin-top: 42000px;
+  }
+
+  .monster{
+    margin-top: 60500px;
+    overflow: hidden;
+  }
+
   #diepte{
     font-size: 42px;
   }
@@ -1021,14 +993,212 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   #sub{
     width: 450px;
   }
+
   .sub{
-    margin-bottom: 30vh;
+    margin-bottom: 0vh;
   }
 
 
 
 
 
+}
+
+
+
+/* medium screen */
+@media only screen and (min-width: 1024px){
+  header{
+    height: 50vh;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h5{
+    font-size: 1rem;
+  }
+  .titles{
+    margin-top: 12vh;
+  }
+  .waves{
+    margin-top: 14vh;
+  }
+
+  .midnight{
+    margin-top: 3000px;
+  }
+
+  .abyssel{
+    margin-top: 5350px;
+  }
+  .hadal{
+    margin-top: 43600px;
+  }
+  .everest{
+    margin-top: 18300px;
+  }
+  .last{
+    margin-top: 43300px;
+  }
+
+}
+
+@media only screen and (min-width: 1367px){
+  header{
+    height: 50vh;
+  }
+
+  .seaFish{
+    margin-top: 50px;
+    overflow: visible;
+  }
+
+  .seal{
+    margin-top: -100px;
+  }
+
+  .clown{
+    margin-top: -175px;
+  }
+
+  .orca{
+    margin-top: 700px;
+  }
+
+  .bull{
+    margin-top: 800px;
+  }
+  .turtle{
+    margin-top: 700px;
+  }
+
+  .scuba{
+    margin-top: 1600px;
+  }
+
+  .titanic{
+    margin-top: 48000px;
+  }
+
+  .everest{
+    margin-top: 18000px;
+  }
+  .item-paragraph{
+    width: 30vw;
+
+  }
+
+  .sub .item-paragraph{
+  margin-top: 2%;
+  }
+
+  .sub  .fish-titles{
+    margin-top: 2%;
+  }
+  .sand{
+
+    height: 80vh;
+    width: 100vw;
+    margin-top: -30vh;
+    overflow: hidden;
+
+
+  }
+
+  #clown{
+    width: 126px;
+    animation-duration: 35s;
+  }
+
+  #seal{
+    width: 270px;
+    animation-duration: 70s;
+  }
+  #seaFish{
+    width: 90px;
+  }
+  #bara{
+    width: 270px;
+    animation-duration: 25s;
+  }
+  #orca{
+    width: 810px;
+  }
+  #bull{
+    width: 540px;
+    animation-duration: 25s;
+  }
+  #turtle{
+    width: 360px;
+    animation-duration: 80s;
+  }
+  #white{
+    width: 720px;
+    animation-duration: 25s;
+  }
+
+  #scuba{
+    width: 180px;
+  }
+
+  #sword{
+    width: 540px;
+  }
+  #octo{
+    width: 720px;
+  }
+  #leather{
+    width: 360px;
+    animation-duration: 80s;
+  }
+
+  #angler{
+    width: 360px;
+    animation-duration: 60s;
+  }
+
+  #dragon{
+    width: 270px;
+    animation-duration: 35s;
+  }
+
+  #narwhale{
+    width: 450px;
+    animation-duration: 40s;
+  }
+
+  #colossal{
+    width: 720px;
+  }
+
+  #titanic{
+    width: 1440px;
+  }
+  #megamouth{
+    width: 584px;
+    animation-duration: 40s;
+  }
+
+  #fang{
+    width: 180px;
+    animation-duration: 25s;
+  }
+  #grenadier{
+    width: 270px;
+    animation-duration: 52s;
+  }
+  #hadal{
+    width: 180px;
+    animation-duration: 70s;
+  }
+
+  #everest{
+    width: 1800px;
+  }
+
+  #sub{
+    width: 540px;
+  }
 }
 
 /* mobile */
