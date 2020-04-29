@@ -843,30 +843,194 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
     }
 
 
+@media only screen and (min-width: 1550px){
+  header{
+    height: 50vh;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  h5{
+    font-size: 0.8rem;
+  }
+  .titles{
+    margin-top: 10vh;
+  }
+  .waves{
+    margin-top: 15vh;
+  }
+}
 
-
-/* mideum screen */
-@media only screen and (max-width: 1550px){
-
+/* medium screen */
+@media only screen and (min-width: 1024px){
+  header{
+    height: 50vh;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h5{
+    font-size: 1rem;
+  }
+  .titles{
+    margin-top: 12vh;
+  }
+  .waves{
+    margin-top: 13vh;
+  }
+  .midnight{
+    margin-top: 3000px;
+  }
+}
 }
 
 /* ipad pro */
-@media only screen and (max-width: 1550px) and (min-height: 1000px) {
+@media only screen and (min-width: 1023) and (min-height: 1000px) {
 
 }
 /* small screen */
-@media only screen and (max-width: 1023px){
+@media only screen and (min-width: 767px){
+  header{
+    height: 50vh;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.3rem;
+  }
+  h5{
+    font-size: 0.8rem;
+  }
+  .titles{
+    margin-top: 10vh;
+  }
+  .waves{
+    margin-top: 15vh;
+  }
+  .item-paragraph{
+    width: 50vw;
+    font-size: 1.1em;
+  }
+
+  .meter{
+    width: 144px;
+    height: 75px;
+  }
+
+  .turtle{
+    margin-top: 700px;
+  }
+
+  .sword{
+    margin-top: 6700px;
+  }
+
+  .octo{
+    margin-top: 6700px;
+  }
+
+  .abyssel{
+    margin-top: 4650px;
+  }
+
+  .everest{
+    margin-top: 26000px;
+  }
+  #diepte{
+    font-size: 42px;
+  }
+
+  #clown{
+    width: 105px;
+  }
+
+  #seal{
+    width: 225px;
+  }
+  #seaFish{
+    width: 75px;
+  }
+  #bara{
+    width: 225px;
+  }
+  #orca{
+    width: 675px;
+  }
+  #bull{
+    width: 450px;
+  }
+  #turtle{
+    width: 300px;
+  }
+  #white{
+    width: 600px;
+  }
+
+  #scuba{
+    width: 150px;
+  }
+
+  #sword{
+    width: 450px;
+  }
+  #octo{
+    width: 600px;
+  }
+  #leather{
+    width: 300px;
+  }
+
+  #angler{
+    width: 300px;
+  }
+
+  #dragon{
+    width: 225px;
+  }
+
+  #narwhale{
+    width: 375px;
+  }
+
+  #colossal{
+    width: 600px;
+  }
+
+  #titanic{
+    width: 1200px;
+  }
+  #megamouth{
+    width: 487px;
+  }
+
+  #fang{
+    width: 150px;
+  }
+  #grenadier{
+    width: 225px;
+  }
+  #hadal{
+    width: 150px;
+  }
+
+  #everest{
+    width: 1500px;
+  }
+
+  #sub{
+    width: 450px;
+  }
+  .sub{
+    margin-bottom: 30vh;
+  }
+
+
+
+
 
 }
-/* ipad */
-@media only screen and (max-width: 1023px) and (min-height: 1000px) {
-.meter{
 
-}
-#diepte{
-
-}
-}
 /* mobile */
 @media only screen and (max-width: 767px) {
 
