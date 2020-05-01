@@ -242,12 +242,28 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
   z-index: 4000;
 
 }
+.web_pointer{
+  height: 40px;
+  width: 40px;
+  margin: 0 2%;
+  display: none;
+  cursor: pointer;
+  z-index: 4001;
+}
 
 .up{
   background-image: url(../img/up.svg);
 }
 
 .down{
+  background-image: url(../img/up.svg);
+  transform: rotate(180deg);
+}
+.web_up{
+  background-image: url(../img/up.svg);
+}
+
+.web_down{
   background-image: url(../img/up.svg);
   transform: rotate(180deg);
 }
@@ -1080,6 +1096,12 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 85%, rgba(5,25,32,1) 95%, rgba(0
 @media only screen and (min-width: 1367px){
   header{
     height: 50vh;
+  }
+  .fast_scroll div{
+    display: none;
+  }
+  .web_pointer{
+    display: block;
   }
 
   .seaFish{

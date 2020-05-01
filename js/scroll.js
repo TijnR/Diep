@@ -21,8 +21,6 @@ document.addEventListener("scroll",function(event){
 	var downButton = document.querySelector('.down');
 
 	upButton.addEventListener("click", function(event){
-		console.log("up");
-		console.log(top);
 
 		window.scrollTo({
 		top: 0,
@@ -32,7 +30,7 @@ document.addEventListener("scroll",function(event){
 	});
 
 	downButton.addEventListener("click", function(event){
-		console.log("down");
+
 		// window.scrollTo(0, 2000);
 
 
@@ -190,5 +188,182 @@ document.addEventListener("scroll",function(event){
 
 
 	});
+
+	var upWebButton = document.querySelector('.web_up');
+	var downWebButton = document.querySelector('.web_down');
+
+	upWebButton.addEventListener("click", function(event){
+
+		window.scrollTo({
+		top: 0,
+		left: 0,
+		behavior: 'smooth'
+		});
+	});
+
+	downWebButton.addEventListener("click", function(event){
+
+		// window.scrollTo(0, 2000);
+
+
+		if (top < 18) {
+			window.scrollTo({
+			top: 600,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=18 && top <28){
+			window.scrollTo({
+			top: 900,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=28 && top <55){
+			window.scrollTo({
+			top: 1700,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=55 && top <116){
+			window.scrollTo({
+			top: 3400,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=116 && top <153){
+			window.scrollTo({
+			top: 4500,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=153 && top <186){
+			window.scrollTo({
+			top: 5500,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=186 && top <243){
+			window.scrollTo({
+			top: 7200,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=243 && top <323){
+			window.scrollTo({
+			top: 9600,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=323 && top <576){
+			window.scrollTo({
+			top: 17200,
+			left: 0,
+			behavior: 'smooth'
+			});
+		}	else if (top >=576 && top <833){
+			window.scrollTo({
+			top: 24900,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=833 && top <886){
+			window.scrollTo({
+			top: 26500,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >=886 && top < 1000){
+			window.scrollTo({
+			top: 29900,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 1000 && top < 1033){
+			window.scrollTo({
+			top: 30900,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 1033 && top < 1473){
+			window.scrollTo({
+			top: 44100,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 1473 && top < 1780){
+			window.scrollTo({
+			top: 53300,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 1780 && top < 2170){
+			window.scrollTo({
+			top: 65000,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 2170 && top < 3803){
+			window.scrollTo({
+			top: 114000,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 3803 && top < 4000){
+			window.scrollTo({
+			top: 119900,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 4000 && top < 4330){
+			window.scrollTo({
+			top: 129800,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 4330 && top < 4536){
+			window.scrollTo({
+			top: 136000,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 4536 && top < 5993){
+			window.scrollTo({
+			top: 179700,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 5993 && top < 6723){
+			window.scrollTo({
+			top: 201600,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 6723 && top < 8188){
+			window.scrollTo({
+			top: 245550,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 8188 && top < 8836){
+			window.scrollTo({
+			top: 265000,
+			left: 0,
+			behavior: 'smooth'
+			});
+		} else if (top >= 8236){
+			window.scrollTo({
+			top: 329000,
+			left: 0,
+			behavior: 'smooth'
+			});
+		}
+
+});
+
+
+
+
+
+
 
 });
