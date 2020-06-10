@@ -17,8 +17,8 @@ document.addEventListener("scroll",function(event){
 	document.getElementById("diepte").innerHTML = top;
 
 
-	var upButton = document.querySelector('.up');
-	var downButton = document.querySelector('.down');
+	var upButton = document.querySelector('.web_up');
+	var downButton = document.querySelector('.web_down');
 
 	upButton.addEventListener("click", function(event){
 
@@ -31,8 +31,6 @@ document.addEventListener("scroll",function(event){
 
 	downButton.addEventListener("click", function(event){
 
-		// window.scrollTo(0, 2000);
-
 		window.scrollTo({
 		top: 1000000,
 		left: 0,
@@ -40,6 +38,7 @@ document.addEventListener("scroll",function(event){
 		});
 
 
+  // Dit is fancy als je per item omlaag scrolled, maar is niet te doen als je op verschillende gaat kijken.
 	// 	if (top < 18) {
 	// 		window.scrollTo({
 	// 		top: 600,
